@@ -71,7 +71,15 @@ export default function Home() {
                 A reusable toolkit for incident categorisation, trend analysis, and patient safety reporting.
               </p>
             </div>
+<div className="rounded-xl border border-slate-200 bg-white p-8 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
+  <h3 className="text-xl font-bold text-slate-900">
+    🤖 Automation & AI
+  </h3>
 
+  <p className="mt-4 text-slate-600">
+    Automating NHS reporting with Power Query, DAX and AI-assisted workflows to save time, improve consistency and reduce manual effort.
+  </p>
+</div>
           </div>
 
         </div>
