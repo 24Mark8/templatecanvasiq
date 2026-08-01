@@ -93,12 +93,12 @@ export default function Home() {
 
               <div>
                 <h3 className="text-4xl font-extrabold text-blue-700">100+</h3>
-                <p className="mt-2 text-slate-600">Power BI Dashboards</p>
+                <p className="mt-2 text-slate-600">Dashboards Delivered</p>
               </div>
 
               <div>
                 <h3 className="text-4xl font-extrabold text-blue-700">1M+</h3>
-                <p className="mt-2 text-slate-600">Records Analysed</p>
+                <p className="mt-2 text-slate-600">Data Records Analysed</p>
               </div>
 
               <div>
