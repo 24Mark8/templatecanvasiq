@@ -4,7 +4,7 @@ export default function Home() {
 
       <nav className="border-b border-slate-200">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-          <h2 className="text-xl font-bold text-blue-700">
+          <h2 className="text-2xl font-extrabold tracking-tight text-blue-700">
             TemplateCanvasIQ
           </h2>
 
