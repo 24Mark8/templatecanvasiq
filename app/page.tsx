@@ -9,7 +9,12 @@ export default function Home() {
           </h2>
 
           <div className="flex gap-8 text-sm font-medium">
-            <a href="#">Home</a>
+            <a
+  href="#"
+  className="text-slate-700 transition-colors hover:text-blue-700"
+>
+  Home
+</a>
             <a href="#">About</a>
             <a href="#">Services</a>
             <a href="#">Articles</a>
