@@ -11,7 +11,7 @@ export default function Home() {
           <div className="flex gap-8 text-sm font-medium">
             <a
   href="#"
-  className="text-slate-700 transition-colors hover:text-blue-700"
+  className="font-medium text-slate-700 transition-colors duration-200 hover:text-blue-700"
 >
   Home
 </a>
