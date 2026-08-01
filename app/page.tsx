@@ -39,7 +39,17 @@ href="#"className="font-medium text-slate-700 transition-colors duration-200 hov
           </button>
         </div>
       </section>
+<section className="bg-slate-50 py-20">
+  <div className="mx-auto max-w-7xl px-6">
+    <h2 className="text-3xl font-bold text-slate-900">
+      What I Do
+    </h2>
 
+    <p className="mt-4 max-w-2xl text-lg text-slate-600">
+      I help NHS organisations transform complex data into clear, actionable intelligence through Power BI, automation, and reusable analytics solutions.
+    </p>
+  </div>
+</section>
     </main>
   );
 }
