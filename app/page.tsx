@@ -109,12 +109,24 @@ export default function Home() {
           </section>
 
           {/* TAGS */}
-          <div className="mt-12 flex flex-wrap justify-center gap-3">
-            <span className="rounded-full bg-blue-100 px-4 py-2 text-sm font-medium text-blue-700">Power BI</span>
-            <span className="rounded-full bg-slate-100 px-4 py-2 text-sm font-medium text-slate-700">Microsoft Fabric</span>
-            <span className="rounded-full bg-slate-100 px-4 py-2 text-sm font-medium text-slate-700">AI Automation</span>
-            <span className="rounded-full bg-slate-100 px-4 py-2 text-sm font-medium text-slate-700">Business Intelligence</span>
-          </div>
+         <div className="mt-12 flex flex-wrap justify-center gap-3 text-center">
+         <span className="rounded-full bg-blue-100 px-4 py-2 text-sm font-medium text-blue-700">
+         Power BI
+        </span>
+
+         <span className="rounded-full bg-slate-100 px-4 py-2 text-sm font-medium text-slate-700">
+          Microsoft Fabric
+        </span>
+
+         <span className="rounded-full bg-slate-100 px-4 py-2 text-sm font-medium text-slate-700">
+         AI Automation
+        </span>
+
+        <span className="rounded-full bg-slate-100 px-4 py-2 text-sm font-medium text-slate-700">
+         Business Intelligence
+        </span>
+     </div>
+
 
         </div>
       </section>
