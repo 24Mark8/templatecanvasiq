@@ -19,8 +19,8 @@ href="#"className="font-medium text-slate-700 transition-colors duration-200 hov
         </div>
       </nav>
 
-      <section className="max-w-7xl mx-auto px-6 py-24">
-        <h1 className="text-5xl font-bold text-slate-900">
+      <section className="max-w-7xl mx-auto px-6 py-32">
+        <h1 className="max-w-4xl text-5xl font-extrabold leading-tight text-slate-900 md:text-6xl">
           Transforming NHS Data into Actionable Intelligence
         </h1>
 
