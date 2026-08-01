@@ -15,10 +15,10 @@ export default function Home() {
 >
   Home
 </a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Articles</a>
-            <a href="#">Contact</a>
+            <a href="#" className="font-medium text-slate-700 transition-colors duration-200 hover:text-blue-700">About</a>
+<a href="#" className="font-medium text-slate-700 transition-colors duration-200 hover:text-blue-700">Services</a>
+<a href="#" className="font-medium text-slate-700 transition-colors duration-200 hover:text-blue-700">Articles</a>
+<a href="#" className="font-medium text-slate-700 transition-colors duration-200 hover:text-blue-700">Contact</a>
           </div>
         </div>
       </nav>
