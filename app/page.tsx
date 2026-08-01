@@ -30,7 +30,7 @@ href="#"className="font-medium text-slate-700 transition-colors duration-200 hov
         </p>
 
         <div className="mt-10 flex gap-4">
-          <button className="rounded-lg bg-blue-600 px-6 py-3 font-semibold text-white hover:bg-blue-700">
+          <button className="rounded-xl bg-blue-600 px-6 py-3 font-semibold text-white hover:bg-blue-700">
             View Dashboard Gallery
           </button>
 
