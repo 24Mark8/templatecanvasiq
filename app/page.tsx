@@ -34,7 +34,7 @@ href="#"className="font-medium text-slate-700 transition-colors duration-200 hov
             View Dashboard Gallery
           </button>
 
-          <button className="rounded-x1 border border-slate-300 px-6 py-3 font-semibold text-slate-700 hover:bg-slate-100">
+          <button className="rounded-xl border border-slate-300 px-6 py-3 font-semibold text-slate-700 hover:bg-slate-100">
             Learn More
           </button>
         </div>
