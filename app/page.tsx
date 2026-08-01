@@ -114,7 +114,6 @@ export default function Home() {
               </p>
             </div>
             <section className="mt-20 border-t border-slate-200 pt-16">
-              
   <h2 className="text-center text-3xl font-bold text-slate-900">
     By the Numbers
   </h2>
