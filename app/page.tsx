@@ -44,7 +44,7 @@ export default function Home() {
 
       <section className="max-w-7xl mx-auto px-6 py-32">
         <p className="mb-4 text-sm font-semibold uppercase tracking-widest text-blue-700">
-  NHS Analytics • Power BI • Incident Intelligence
+  TURNING NHS DATA INTO BETTER DECISIONS
 </p>
         <h1 className="max-w-4xl text-5xl font-extrabold leading-tight text-slate-900 md:text-6xl">
           Transforming NHS Data into Actionable Intelligence
