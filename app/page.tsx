@@ -110,6 +110,33 @@ export default function Home() {
                 effort.
               </p>
             </div>
+            <section className="mt-20 border-t border-slate-200 pt-16">
+  <h2 className="text-center text-3xl font-bold text-slate-900">
+    By the Numbers
+  </h2>
+
+  <div className="mt-12 grid gap-8 text-center md:grid-cols-4">
+    <div>
+      <h3 className="text-4xl font-extrabold text-blue-700">24+</h3>
+      <p className="mt-2 text-slate-600">Years in the NHS</p>
+    </div>
+
+    <div>
+      <h3 className="text-4xl font-extrabold text-blue-700">100+</h3>
+      <p className="mt-2 text-slate-600">Power BI Dashboards</p>
+    </div>
+
+    <div>
+      <h3 className="text-4xl font-extrabold text-blue-700">1M+</h3>
+      <p className="mt-2 text-slate-600">Records Analysed</p>
+    </div>
+
+    <div>
+      <h3 className="text-4xl font-extrabold text-blue-700">24/7</h3>
+      <p className="mt-2 text-slate-600">Decision Support</p>
+    </div>
+  </div>
+</section>
           </div>
         </div>
       </section>
