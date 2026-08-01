@@ -8,7 +8,7 @@ export default function Home() {
             TemplateCanvasIQ
           </h2>
 
-          <div className="flex gap-6 text-sm font-medium text-slate-700">
+          <div className="flex gap-8 text-sm font-medium text-slate-700">
             <a href="#">Home</a>
             <a href="#">About</a>
             <a href="#">Services</a>
