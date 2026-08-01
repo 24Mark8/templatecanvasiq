@@ -132,7 +132,7 @@ export default function Home() {
       </section>
 
       {/* ARTICLES */}
-      <section id="articles" className="py-20">
+      <section id="articles" className="py-24">
         <div className="mx-auto max-w-7xl px-6">
           <h2 className="text-3xl font-bold text-slate-900">Articles & Insights</h2>
           <p className="mt-4 max-w-2xl text-lg text-slate-600">
@@ -171,7 +171,7 @@ export default function Home() {
       </section>
 
       {/* CONTACT */}
-      <section id="contact" className="bg-slate-900 py-20">
+      <section id="contact" className="bg-slate-900 py-24">
         <div className="mx-auto max-w-7xl px-6 text-slate-50">
           <h2 className="text-3xl font-bold">Let’s talk about your NHS data</h2>
           <p className="mt-4 max-w-2xl text-lg text-slate-200">
