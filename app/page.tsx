@@ -1,6 +1,7 @@
 export default function Home() {
   return (
     <main className="min-h-screen bg-white">
+
       {/* NAV */}
       <nav className="sticky top-0 z-50 border-b border-slate-200 bg-white">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
@@ -9,36 +10,11 @@ export default function Home() {
           </h2>
 
           <div className="flex gap-8 text-sm font-medium">
-            <a
-              href="#hero"
-              className="font-medium text-slate-700 transition-colors duration-200 hover:text-blue-700"
-            >
-              Home
-            </a>
-            <a
-              href="#about"
-              className="font-medium text-slate-700 transition-colors duration-200 hover:text-blue-700"
-            >
-              About
-            </a>
-            <a
-              href="#services"
-              className="font-medium text-slate-700 transition-colors duration-200 hover:text-blue-700"
-            >
-              Services
-            </a>
-            <a
-              href="#articles"
-              className="font-medium text-slate-700 transition-colors duration-200 hover:text-blue-700"
-            >
-              Articles
-            </a>
-            <a
-              href="#contact"
-              className="font-medium text-slate-700 transition-colors duration-200 hover:text-blue-700"
-            >
-              Contact
-            </a>
+            <a href="#hero" className="text-slate-700 hover:text-blue-700">Home</a>
+            <a href="#about" className="text-slate-700 hover:text-blue-700">About</a>
+            <a href="#services" className="text-slate-700 hover:text-blue-700">Services</a>
+            <a href="#articles" className="text-slate-700 hover:text-blue-700">Articles</a>
+            <a href="#contact" className="text-slate-700 hover:text-blue-700">Contact</a>
           </div>
         </div>
       </nav>
@@ -62,25 +38,25 @@ export default function Home() {
           <button className="rounded-xl bg-blue-600 px-6 py-3 font-semibold text-white hover:bg-blue-700">
             View Dashboard Gallery
           </button>
-
           <button className="rounded-xl border border-slate-300 px-6 py-3 font-semibold text-slate-700 hover:bg-slate-100">
             Learn More
           </button>
         </div>
       </section>
 
-      {/* ABOUT + SERVICES + STATS */}
+      {/* ABOUT + SERVICES */}
       <section id="about" className="bg-slate-50 py-20">
         <div className="mx-auto max-w-7xl px-6">
-          <h2 className="text-3xl font-bold text-slate-900">What I Do</h2>
 
+          <h2 className="text-3xl font-bold text-slate-900">What I Do</h2>
           <p className="mt-4 max-w-2xl text-lg text-slate-600">
             I help NHS organisations transform complex data into clear, actionable intelligence
             through Power BI, automation, and reusable analytics solutions.
           </p>
 
+          {/* SERVICES GRID */}
           <section id="services" className="mt-12 grid gap-8 md:grid-cols-3">
-            <div className="flex h-full flex-col rounded-xl border border-slate-200 bg-white p-8 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
+            <div className="flex flex-col rounded-xl border border-slate-200 bg-white p-8 shadow-sm hover:-translate-y-1 hover:shadow-lg transition">
               <h3 className="text-xl font-bold text-slate-900">📊 Power BI Dashboard Design</h3>
               <p className="mt-4 text-slate-600">
                 Designing clear, interactive dashboards that help NHS teams understand performance,
@@ -88,7 +64,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="flex h-full flex-col rounded-xl border border-slate-200 bg-white p-8 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
+            <div className="flex flex-col rounded-xl border border-slate-200 bg-white p-8 shadow-sm hover:-translate-y-1 hover:shadow-lg transition">
               <h3 className="text-xl font-bold text-slate-900">🩺 NHS Incident Intelligence Toolkit</h3>
               <p className="mt-4 text-slate-600">
                 A reusable toolkit for incident categorisation, trend analysis, and patient safety
@@ -96,7 +72,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="flex h-full flex-col rounded-xl border border-slate-200 bg-white p-8 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
+            <div className="flex flex-col rounded-xl border border-slate-200 bg-white p-8 shadow-sm hover:-translate-y-1 hover:shadow-lg transition">
               <h3 className="text-xl font-bold text-slate-900">🤖 Automation & AI</h3>
               <p className="mt-4 text-slate-600">
                 Automating NHS reporting with Power Query, DAX and AI-assisted workflows to save
@@ -105,10 +81,11 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="mt-20 border-t border-slate-200 pt-16">
-            <h2 className="text-center text-3xl font-bold text-slate-900">By the Numbers</h2>
+          {/* BY THE NUMBERS — CENTRED */}
+          <section className="mt-20 border-t border-slate-200 pt-16 text-center">
+            <h2 className="text-3xl font-bold text-slate-900">By the Numbers</h2>
 
-            <div className="mt-12 grid gap-8 text-center md:grid-cols-4">
+            <div className="mt-12 grid gap-8 md:grid-cols-4">
               <div>
                 <h3 className="text-4xl font-extrabold text-blue-700">24+</h3>
                 <p className="mt-2 text-slate-600">Years in the NHS</p>
@@ -131,30 +108,23 @@ export default function Home() {
             </div>
           </section>
 
-          <div className="mt-12 flex flex-wrap gap-3">
-            <span className="rounded-full bg-blue-100 px-4 py-2 text-sm font-medium text-blue-700">
-              Power BI
-            </span>
-            <span className="rounded-full bg-slate-100 px-4 py-2 text-sm font-medium text-slate-700">
-              Microsoft Fabric
-            </span>
-            <span className="rounded-full bg-slate-100 px-4 py-2 text-sm font-medium text-slate-700">
-              AI Automation
-            </span>
-            <span className="rounded-full bg-slate-100 px-4 py-2 text-sm font-medium text-slate-700">
-              Business Intelligence
-            </span>
+          {/* TAGS */}
+          <div className="mt-12 flex flex-wrap justify-center gap-3">
+            <span className="rounded-full bg-blue-100 px-4 py-2 text-sm font-medium text-blue-700">Power BI</span>
+            <span className="rounded-full bg-slate-100 px-4 py-2 text-sm font-medium text-slate-700">Microsoft Fabric</span>
+            <span className="rounded-full bg-slate-100 px-4 py-2 text-sm font-medium text-slate-700">AI Automation</span>
+            <span className="rounded-full bg-slate-100 px-4 py-2 text-sm font-medium text-slate-700">Business Intelligence</span>
           </div>
+
         </div>
       </section>
 
-      {/* ARTICLES STRIP */}
+      {/* ARTICLES */}
       <section id="articles" className="py-20">
         <div className="mx-auto max-w-7xl px-6">
           <h2 className="text-3xl font-bold text-slate-900">Articles & Insights</h2>
           <p className="mt-4 max-w-2xl text-lg text-slate-600">
-            Short, practical pieces on NHS analytics, incident reporting, and executive‑ready
-            dashboards.
+            Short, practical pieces on NHS analytics, incident reporting, and executive‑ready dashboards.
           </p>
 
           <div className="mt-10 grid gap-8 md:grid-cols-3">
@@ -207,6 +177,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+
     </main>
   );
 }
