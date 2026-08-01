@@ -189,7 +189,52 @@ export default function Home() {
           </div>
         </div>
       </section>
+{/* FOOTER */}
+<footer className="bg-slate-900 py-12">
+  <div className="mx-auto max-w-7xl px-6">
 
+    <h2 className="text-2xl font-bold text-white">
+      TemplateCanvasIQ
+    </h2>
+
+    <p className="mt-3 max-w-xl text-slate-300">
+      Transforming complex data into actionable intelligence.
+    </p>
+
+    <div className="mt-8 flex flex-wrap gap-6 text-sm">
+      <a href="#hero" className="text-slate-300 hover:text-white">Home</a>
+      <a href="#about" className="text-slate-300 hover:text-white">About</a>
+      <a href="#services" className="text-slate-300 hover:text-white">Services</a>
+      <a href="#articles" className="text-slate-300 hover:text-white">Articles</a>
+      <a href="#contact" className="text-slate-300 hover:text-white">Contact</a>
+    </div>
+
+    <div className="mt-8 border-t border-slate-700 pt-6 flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+      <p className="text-sm text-slate-400">
+        © 2026 TemplateCanvasIQ. All rights reserved.
+      </p>
+
+      <div className="flex gap-6">
+        <a
+          href="https://www.linkedin.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-slate-300 hover:text-white"
+        >
+          LinkedIn
+        </a>
+
+        <a
+          href="mailto:your@email.com"
+          className="text-slate-300 hover:text-white"
+        >
+          Email
+        </a>
+      </div>
+    </div>
+
+  </div>
+</footer>
     </main>
   );
 }
