@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-white">
 
-      <nav className="border-b border-slate-200">
+      <nav className="sticky top-0 z-50 border-b border-slate-200 bg-white">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
           <h2 className="text-2xl font-extrabold tracking-tight text-blue-700">
             TemplateCanvasIQ
@@ -10,12 +10,8 @@ export default function Home() {
 
           <div className="flex gap-8 text-sm font-medium">
             <a
-  href="#"
-  className="font-medium text-slate-700 transition-colors duration-200 hover:text-blue-700"
->
-  Home
-</a>
-            <a href="#" className="font-medium text-slate-700 transition-colors duration-200 hover:text-blue-700">About</a>
+href="#"className="font-medium text-slate-700 transition-colors duration-200 hover:text-blue-700">Home</a>
+<a href="#" className="font-medium text-slate-700 transition-colors duration-200 hover:text-blue-700">About</a>
 <a href="#" className="font-medium text-slate-700 transition-colors duration-200 hover:text-blue-700">Services</a>
 <a href="#" className="font-medium text-slate-700 transition-colors duration-200 hover:text-blue-700">Articles</a>
 <a href="#" className="font-medium text-slate-700 transition-colors duration-200 hover:text-blue-700">Contact</a>
