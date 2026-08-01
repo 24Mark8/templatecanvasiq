@@ -216,7 +216,7 @@ export default function Home() {
 
       <div className="flex gap-6">
         <a
-          href="https://www.linkedin.com"
+          href="https://www.linkedin.com/in/mark-mundy-94257335b/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-slate-300 hover:text-white"
