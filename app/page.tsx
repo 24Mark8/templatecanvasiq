@@ -47,8 +47,7 @@ href="#"className="font-medium text-slate-700 transition-colors duration-200 hov
 
     <p className="mt-4 max-w-2xl text-lg text-slate-600">
       I help NHS organisations transform complex data into clear, actionable intelligence through Power BI, automation, and reusable analytics solutions.
-    </p>
-    <div className="mt-12 rounded-xl border border-slate-200 bg-white p-8 shadow-sm">
+    </p><div className="mt-12 rounded-xl border border-slate-200 bg-white p-8 shadow-sm">
   <h3 className="text-xl font-bold text-slate-900">
     📊 Power BI Dashboard Design
   </h3>
@@ -58,6 +57,7 @@ href="#"className="font-medium text-slate-700 transition-colors duration-200 hov
     performance, identify trends, and make informed decisions.
   </p>
 </div>
+
   </div>
 </section>
     </main>
