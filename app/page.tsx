@@ -132,43 +132,56 @@ export default function Home() {
       </section>
 
       {/* ARTICLES */}
-      <section id="articles" className="py-24">
-        <div className="mx-auto max-w-7xl px-6">
-          <h2 className="text-3xl font-bold text-slate-900">Articles & Insights</h2>
-          <p className="mt-4 max-w-2xl text-lg text-slate-600">
-            Short, practical pieces on NHS analytics, incident reporting, and executive‑ready dashboards.
-          </p>
+      <div className="mt-10 grid gap-8 md:grid-cols-2">
 
-          <div className="mt-10 grid gap-8 md:grid-cols-3">
-            <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
-              <h3 className="text-lg font-semibold text-slate-900">
-                Designing NHS Incident Dashboards That Executives Actually Use
-              </h3>
-              <p className="mt-3 text-sm text-slate-600">
-                How to move from raw incident lists to clear, board‑level insight.
-              </p>
-            </div>
+  <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
+    <p className="text-sm font-semibold text-blue-700">Part 1</p>
+    <h3 className="mt-2 text-xl font-bold text-slate-900">
+      Why Free-Text Incident Data Is One of the Biggest Untapped Resources
+    </h3>
+  </div>
 
-            <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
-              <h3 className="text-lg font-semibold text-slate-900">
-                Making Waiting Time Reporting Less Painful
-              </h3>
-              <p className="mt-3 text-sm text-slate-600">
-                Practical patterns for variation, trend, and pressure views in Power BI.
-              </p>
-            </div>
+  <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
+    <p className="text-sm font-semibold text-blue-700">Part 2</p>
+    <h3 className="mt-2 text-xl font-bold text-slate-900">
+      Why Hard-Coded Keywords Don't Scale
+    </h3>
+  </div>
 
-            <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
-              <h3 className="text-lg font-semibold text-slate-900">
-                From Datix to Intelligence: A Toolkit Approach
-              </h3>
-              <p className="mt-3 text-sm text-slate-600">
-                Why a reusable incident model beats one‑off reports every time.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+  <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
+    <p className="text-sm font-semibold text-blue-700">Part 3</p>
+    <h3 className="mt-2 text-xl font-bold text-slate-900">
+      Designing a Reusable Keyword Library
+    </h3>
+  </div>
+
+  <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
+    <p className="text-sm font-semibold text-blue-700">Part 4</p>
+    <h3 className="mt-2 text-xl font-bold text-slate-900">
+      Building the Power Query Categorisation Engine
+    </h3>
+  </div>
+
+  <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
+    <p className="text-sm font-semibold text-blue-700">Part 5</p>
+    <h3 className="mt-2 text-xl font-bold text-slate-900">
+      Using AI to Build Better Categories
+    </h3>
+  </div>
+
+  <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
+    <p className="text-sm font-semibold text-blue-700">Part 6</p>
+    <h3 className="mt-2 text-xl font-bold text-slate-900">
+      From Categories to Insights
+    </h3>
+  </div>
+
+  <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm md:col-span-2">
+    <p className="text-sm font-semibold text-blue-700">Part 7</p>
+    <h3 className="mt-2 text-xl font-bold text-slate-900">
+      A Framework That Goes Beyond VTE
+    </h3>
+  </div>
 
       {/* CONTACT */}
       <section id="contact" className="bg-slate-900 py-24">
