@@ -1,6 +1,12 @@
 export default function ArticlePart1() {
   return (
     <main className="min-h-screen bg-white">
+      ...
+    </main>
+  );
+}
+
+    <main className="min-h-screen bg-white">
       <section className="mx-auto max-w-4xl px-6 py-20">
 
         <p className="text-sm font-semibold uppercase tracking-widest text-blue-700">
