@@ -22,36 +22,35 @@ export default function ArticlePage() {
         <div className="space-y-6 text-lg leading-8 text-slate-700">
 
           <p>
-            Every day, healthcare organisations collect thousands of incident
-            reports. These reports often contain structured fields such as harm,
-            location and specialty, but the most valuable information is usually
-            hidden inside the free-text description.
+            Every day, organisations collect thousands of incident reports.
+            These reports contain structured fields, but some of the most
+            valuable information is often hidden within the free-text narrative.
           </p>
 
           <p>
-            Free-text narratives explain what happened, why it happened and what
-            could have prevented it. Unfortunately, this information is rarely
-            analysed consistently because reading thousands of incident reports
-            manually is both time-consuming and subjective.
+            Free-text descriptions explain what happened, why it happened and
+            what could have prevented it. Unfortunately, analysing thousands of
+            narratives manually is time-consuming, inconsistent and difficult to
+            scale.
           </p>
 
           <p>
-            Over the past two decades, I have worked extensively with incident
-            reporting data and repeatedly encountered the same challenge:
-            organisations have rich information available, but no scalable way
-            to categorise and analyse it.
+            Over more than two decades working in healthcare analytics, I
+            repeatedly encountered the same challenge: organisations possess
+            rich information but lack a reusable method for categorising and
+            analysing it effectively.
           </p>
 
           <p>
             This article introduces the problem and explains why a reusable
-            categorisation framework provides a more sustainable approach than
-            relying on manual review or isolated keyword searches.
+            categorisation framework can transform free-text data into
+            actionable intelligence.
           </p>
 
           <p>
-            In the next article, we'll explore why hard-coded keyword searches
-            become increasingly difficult to maintain as reporting requirements
-            evolve.
+            In Part 2, we'll explore why hard-coded keyword searches become
+            increasingly difficult to maintain and what a better alternative
+            looks like.
           </p>
 
         </div>
