@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-white">
@@ -164,12 +166,25 @@ export default function Home() {
               </p>
             </a>
 
-            <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm hover:-translate-y-1 hover:shadow-lg transition">
-              <p className="text-sm font-semibold text-blue-700">Part 2</p>
-              <h3 className="mt-2 text-xl font-bold text-slate-900">
-                Why Hard-Coded Keywords Don't Scale
-              </h3>
-            </div>
+            <Link href="/articles/datix-categorisation-part-2">
+  <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg hover:border-blue-500 cursor-pointer">
+    <p className="text-sm font-semibold text-blue-700">
+      Part 2
+    </p>
+
+    <h3 className="mt-2 text-xl font-bold text-slate-900">
+      Building a Reusable Framework for Categorising Datix Incident Narratives
+    </h3>
+
+    <p className="mt-3 text-slate-600">
+      Discover why a well-designed keyword library is the foundation of a scalable and reusable incident categorisation framework.
+    </p>
+
+    <div className="mt-5 font-semibold text-blue-600">
+      Read Article →
+    </div>
+  </div>
+</Link>
 
             <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm hover:-translate-y-1 hover:shadow-lg transition">
               <p className="text-sm font-semibold text-blue-700">Part 3</p>
