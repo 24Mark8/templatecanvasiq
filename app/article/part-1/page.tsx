@@ -1,12 +1,6 @@
 export default function ArticlePart1() {
   return (
     <main className="min-h-screen bg-white">
-      ...
-    </main>
-  );
-}
-
-    <main className="min-h-screen bg-white">
       <section className="mx-auto max-w-4xl px-6 py-20">
 
         <p className="text-sm font-semibold uppercase tracking-widest text-blue-700">
@@ -26,7 +20,6 @@ export default function ArticlePart1() {
         <hr className="my-10 border-slate-200" />
 
         <div className="space-y-6 text-lg leading-8 text-slate-700">
-
           <p>
             Every day, organisations collect thousands of incident reports.
             These reports contain structured fields, but some of the most
@@ -58,7 +51,6 @@ export default function ArticlePart1() {
             increasingly difficult to maintain and what a better alternative
             looks like.
           </p>
-
         </div>
 
         <div className="mt-16">
