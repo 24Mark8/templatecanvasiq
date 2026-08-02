@@ -132,56 +132,73 @@ export default function Home() {
       </section>
 
       {/* ARTICLES */}
-      <div className="mt-10 grid gap-8 md:grid-cols-2">
+<section id="articles" className="py-24">
+  <div className="mx-auto max-w-7xl px-6">
+    <h2 className="text-3xl font-bold text-slate-900">
+      Articles & Insights
+    </h2>
 
-  <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
-    <p className="text-sm font-semibold text-blue-700">Part 1</p>
-    <h3 className="mt-2 text-xl font-bold text-slate-900">
-      Why Free-Text Incident Data Is One of the Biggest Untapped Resources
-    </h3>
-  </div>
+    <p className="mt-4 max-w-3xl text-lg text-slate-600">
+      Explore practical articles on incident intelligence, Power BI,
+      analytics, automation and AI. Each article is based on real-world
+      experience and designed to help organisations turn data into better
+      decisions.
+    </p>
 
-  <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
-    <p className="text-sm font-semibold text-blue-700">Part 2</p>
-    <h3 className="mt-2 text-xl font-bold text-slate-900">
-      Why Hard-Coded Keywords Don't Scale
-    </h3>
-  </div>
+    <div className="mt-12 grid gap-8 md:grid-cols-2">
 
-  <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
-    <p className="text-sm font-semibold text-blue-700">Part 3</p>
-    <h3 className="mt-2 text-xl font-bold text-slate-900">
-      Designing a Reusable Keyword Library
-    </h3>
-  </div>
+      <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm hover:-translate-y-1 hover:shadow-lg transition">
+        <p className="text-sm font-semibold text-blue-700">Part 1</p>
+        <h3 className="mt-2 text-xl font-bold text-slate-900">
+          Why Free-Text Incident Data Is One of the Biggest Untapped Resources
+        </h3>
+      </div>
 
-  <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
-    <p className="text-sm font-semibold text-blue-700">Part 4</p>
-    <h3 className="mt-2 text-xl font-bold text-slate-900">
-      Building the Power Query Categorisation Engine
-    </h3>
-  </div>
+      <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm hover:-translate-y-1 hover:shadow-lg transition">
+        <p className="text-sm font-semibold text-blue-700">Part 2</p>
+        <h3 className="mt-2 text-xl font-bold text-slate-900">
+          Why Hard-Coded Keywords Don't Scale
+        </h3>
+      </div>
 
-  <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
-    <p className="text-sm font-semibold text-blue-700">Part 5</p>
-    <h3 className="mt-2 text-xl font-bold text-slate-900">
-      Using AI to Build Better Categories
-    </h3>
-  </div>
+      <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm hover:-translate-y-1 hover:shadow-lg transition">
+        <p className="text-sm font-semibold text-blue-700">Part 3</p>
+        <h3 className="mt-2 text-xl font-bold text-slate-900">
+          Designing a Reusable Keyword Library
+        </h3>
+      </div>
 
-  <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
-    <p className="text-sm font-semibold text-blue-700">Part 6</p>
-    <h3 className="mt-2 text-xl font-bold text-slate-900">
-      From Categories to Insights
-    </h3>
-  </div>
+      <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm hover:-translate-y-1 hover:shadow-lg transition">
+        <p className="text-sm font-semibold text-blue-700">Part 4</p>
+        <h3 className="mt-2 text-xl font-bold text-slate-900">
+          Building the Power Query Categorisation Engine
+        </h3>
+      </div>
 
-  <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm md:col-span-2">
-    <p className="text-sm font-semibold text-blue-700">Part 7</p>
-    <h3 className="mt-2 text-xl font-bold text-slate-900">
-      A Framework That Goes Beyond VTE
-    </h3>
+      <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm hover:-translate-y-1 hover:shadow-lg transition">
+        <p className="text-sm font-semibold text-blue-700">Part 5</p>
+        <h3 className="mt-2 text-xl font-bold text-slate-900">
+          Using AI to Build Better Categories
+        </h3>
+      </div>
+
+      <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm hover:-translate-y-1 hover:shadow-lg transition">
+        <p className="text-sm font-semibold text-blue-700">Part 6</p>
+        <h3 className="mt-2 text-xl font-bold text-slate-900">
+          From Categories to Insights
+        </h3>
+      </div>
+
+      <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm hover:-translate-y-1 hover:shadow-lg transition md:col-span-2">
+        <p className="text-sm font-semibold text-blue-700">Part 7</p>
+        <h3 className="mt-2 text-xl font-bold text-slate-900">
+          A Framework That Goes Beyond VTE
+        </h3>
+      </div>
+
+    </div>
   </div>
+</section>
 
       {/* CONTACT */}
       <section id="contact" className="bg-slate-900 py-24">
