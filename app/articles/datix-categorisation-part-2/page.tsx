@@ -29,18 +29,16 @@ export default function DatixCategorisationPart2() {
       </section>
 
       {/* Article */}
-      <article className="max-w-4xl mx-auto bg-white shadow-lg rounded-xl -mt-10 p-10">
+      <article className="max-w-4xl mx-auto bg-white shadow-lg rounded-xl -mt-10 p-10 text-slate-800">
 
-        <h2 className="text-3xl font-bold mb-6">
-          Introduction
-        </h2>
+  <h2 className="text-3xl font-bold text-slate-900 mb-6">
+    Introduction
+  </h2>
 
-        <p className="text-lg leading-8 mb-6">
-          In Part 1, we explored why free-text incident narratives are one
-          of the biggest barriers to meaningful NHS reporting. Although
-          Datix contains valuable clinical information, inconsistent
-          terminology makes reliable analysis extremely difficult.
-        </p>
+  <p className="text-lg leading-8 text-slate-700 mb-6">
+    In Part 1, we explored why free-text incident narratives are one
+    of the biggest barriers to meaningful NHS reporting...
+  </p>
 
         <p className="text-lg leading-8 mb-10">
           The answer isn't simply artificial intelligence.
