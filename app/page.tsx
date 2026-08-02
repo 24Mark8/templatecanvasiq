@@ -109,106 +109,106 @@ export default function Home() {
           </section>
 
           {/* TAGS */}
-         <div className="mt-12 flex flex-wrap justify-center gap-3 text-center">
-         <span className="rounded-full bg-blue-100 px-4 py-2 text-sm font-medium text-blue-700">
-         Power BI
-        </span>
+          <div className="mt-12 flex flex-wrap justify-center gap-3 text-center">
+            <span className="rounded-full bg-blue-100 px-4 py-2 text-sm font-medium text-blue-700">
+              Power BI
+            </span>
 
-         <span className="rounded-full bg-slate-100 px-4 py-2 text-sm font-medium text-slate-700">
-          Microsoft Fabric
-        </span>
+            <span className="rounded-full bg-slate-100 px-4 py-2 text-sm font-medium text-slate-700">
+              Microsoft Fabric
+            </span>
 
-         <span className="rounded-full bg-slate-100 px-4 py-2 text-sm font-medium text-slate-700">
-         AI Automation
-        </span>
+            <span className="rounded-full bg-slate-100 px-4 py-2 text-sm font-medium text-slate-700">
+              AI Automation
+            </span>
 
-        <span className="rounded-full bg-slate-100 px-4 py-2 text-sm font-medium text-slate-700">
-         Business Intelligence
-        </span>
-     </div>
+            <span className="rounded-full bg-slate-100 px-4 py-2 text-sm font-medium text-slate-700">
+              Business Intelligence
+            </span>
+          </div>
 
 
         </div>
       </section>
 
       {/* ARTICLES */}
-<section id="articles" className="py-24">
-  <div className="mx-auto max-w-7xl px-6">
-    <h2 className="text-3xl font-bold text-slate-900">
-      Articles & Insights
-    </h2>
+      <section id="articles" className="py-24">
+        <div className="mx-auto max-w-7xl px-6">
+          <h2 className="text-3xl font-bold text-slate-900">
+            Articles & Insights
+          </h2>
 
-    <p className="mt-4 max-w-3xl text-lg text-slate-600">
-      Explore practical articles on incident intelligence, Power BI,
-      analytics, automation and AI. Each article is based on real-world
-      experience and designed to help organisations turn data into better
-      decisions.
-    </p>
+          <p className="mt-4 max-w-3xl text-lg text-slate-600">
+            Explore practical articles on incident intelligence, Power BI,
+            analytics, automation and AI. Each article is based on real-world
+            experience and designed to help organisations turn data into better
+            decisions.
+          </p>
 
-    <div className="mt-12 grid gap-8 md:grid-cols-2">
+          <div className="mt-12 grid gap-8 md:grid-cols-2">
 
-      <a
-  href="/articles/part-1"
-  className="block rounded-xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
->
-  <p className="text-sm font-semibold text-blue-700">
-    Part 1
-  </p>
+            <a
+              href="/articles/part-1"
+              className="block rounded-xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
+            >
+              <p className="text-sm font-semibold text-blue-700">
+                Part 1
+              </p>
 
-  <h3 className="mt-2 text-xl font-bold text-slate-900">
-    Why Free-Text Incident Data Is One of the Biggest Untapped Resources
-  </h3>
+              <h3 className="mt-2 text-xl font-bold text-slate-900">
+                Why Free-Text Incident Data Is One of the Biggest Untapped Resources
+              </h3>
 
-  <p className="mt-4 font-semibold text-blue-700">
-    Read Article →
-  </p>
-</a>
+              <p className="mt-4 font-semibold text-blue-700">
+                Read Article →
+              </p>
+            </a>
 
-      <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm hover:-translate-y-1 hover:shadow-lg transition">
-        <p className="text-sm font-semibold text-blue-700">Part 2</p>
-        <h3 className="mt-2 text-xl font-bold text-slate-900">
-          Why Hard-Coded Keywords Don't Scale
-        </h3>
-      </div>
+            <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm hover:-translate-y-1 hover:shadow-lg transition">
+              <p className="text-sm font-semibold text-blue-700">Part 2</p>
+              <h3 className="mt-2 text-xl font-bold text-slate-900">
+                Why Hard-Coded Keywords Don't Scale
+              </h3>
+            </div>
 
-      <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm hover:-translate-y-1 hover:shadow-lg transition">
-        <p className="text-sm font-semibold text-blue-700">Part 3</p>
-        <h3 className="mt-2 text-xl font-bold text-slate-900">
-          Designing a Reusable Keyword Library
-        </h3>
-      </div>
+            <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm hover:-translate-y-1 hover:shadow-lg transition">
+              <p className="text-sm font-semibold text-blue-700">Part 3</p>
+              <h3 className="mt-2 text-xl font-bold text-slate-900">
+                Designing a Reusable Keyword Library
+              </h3>
+            </div>
 
-      <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm hover:-translate-y-1 hover:shadow-lg transition">
-        <p className="text-sm font-semibold text-blue-700">Part 4</p>
-        <h3 className="mt-2 text-xl font-bold text-slate-900">
-          Building the Power Query Categorisation Engine
-        </h3>
-      </div>
+            <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm hover:-translate-y-1 hover:shadow-lg transition">
+              <p className="text-sm font-semibold text-blue-700">Part 4</p>
+              <h3 className="mt-2 text-xl font-bold text-slate-900">
+                Building the Power Query Categorisation Engine
+              </h3>
+            </div>
 
-      <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm hover:-translate-y-1 hover:shadow-lg transition">
-        <p className="text-sm font-semibold text-blue-700">Part 5</p>
-        <h3 className="mt-2 text-xl font-bold text-slate-900">
-          Using AI to Build Better Categories
-        </h3>
-      </div>
+            <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm hover:-translate-y-1 hover:shadow-lg transition">
+              <p className="text-sm font-semibold text-blue-700">Part 5</p>
+              <h3 className="mt-2 text-xl font-bold text-slate-900">
+                Using AI to Build Better Categories
+              </h3>
+            </div>
 
-      <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm hover:-translate-y-1 hover:shadow-lg transition">
-        <p className="text-sm font-semibold text-blue-700">Part 6</p>
-        <h3 className="mt-2 text-xl font-bold text-slate-900">
-          From Categories to Insights
-        </h3>
-      </div>
+            <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm hover:-translate-y-1 hover:shadow-lg transition">
+              <p className="text-sm font-semibold text-blue-700">Part 6</p>
+              <h3 className="mt-2 text-xl font-bold text-slate-900">
+                From Categories to Insights
+              </h3>
+            </div>
 
-      <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm hover:-translate-y-1 hover:shadow-lg transition md:col-span-2">
-        <p className="text-sm font-semibold text-blue-700">Part 7</p>
-        <h3 className="mt-2 text-xl font-bold text-slate-900">
-          A Framework That Goes Beyond VTE
-        </h3>
-      </div>
+            <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm hover:-translate-y-1 hover:shadow-lg transition md:col-span-2">
+              <p className="text-sm font-semibold text-blue-700">Part 7</p>
+              <h3 className="mt-2 text-xl font-bold text-slate-900">
+                A Framework That Goes Beyond VTE
+              </h3>
+            </div>
 
-    </div>
-  </div>
-</section>
+          </div>
+        </div>
+      </section>
 
       {/* CONTACT */}
       <section id="contact" className="bg-slate-900 py-24">
@@ -229,52 +229,52 @@ export default function Home() {
           </div>
         </div>
       </section>
-{/* FOOTER */}
-<footer className="bg-slate-900 py-12">
-  <div className="mx-auto max-w-7xl px-6">
+      {/* FOOTER */}
+      <footer className="bg-slate-900 py-12">
+        <div className="mx-auto max-w-7xl px-6">
 
-    <h2 className="text-2xl font-bold text-white">
-      TemplateCanvasIQ
-    </h2>
+          <h2 className="text-2xl font-bold text-white">
+            TemplateCanvasIQ
+          </h2>
 
-    <p className="mt-3 max-w-xl text-slate-300">
-      Transforming complex data into actionable intelligence.
-    </p>
+          <p className="mt-3 max-w-xl text-slate-300">
+            Transforming complex data into actionable intelligence.
+          </p>
 
-    <div className="mt-8 flex flex-wrap gap-6 text-sm">
-      <a href="#hero" className="text-slate-300 hover:text-white">Home</a>
-      <a href="#about" className="text-slate-300 hover:text-white">About</a>
-      <a href="#services" className="text-slate-300 hover:text-white">Services</a>
-      <a href="#articles" className="text-slate-300 hover:text-white">Articles</a>
-      <a href="#contact" className="text-slate-300 hover:text-white">Contact</a>
-    </div>
+          <div className="mt-8 flex flex-wrap gap-6 text-sm">
+            <a href="#hero" className="text-slate-300 hover:text-white">Home</a>
+            <a href="#about" className="text-slate-300 hover:text-white">About</a>
+            <a href="#services" className="text-slate-300 hover:text-white">Services</a>
+            <a href="#articles" className="text-slate-300 hover:text-white">Articles</a>
+            <a href="#contact" className="text-slate-300 hover:text-white">Contact</a>
+          </div>
 
-    <div className="mt-8 border-t border-slate-700 pt-6 flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
-      <p className="text-sm text-slate-400">
-        © 2026 TemplateCanvasIQ. All rights reserved.
-      </p>
+          <div className="mt-8 border-t border-slate-700 pt-6 flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+            <p className="text-sm text-slate-400">
+              © 2026 TemplateCanvasIQ. All rights reserved.
+            </p>
 
-      <div className="flex gap-6">
-        <a
-          href="https://www.linkedin.com/in/mark-mundy-94257335b/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-slate-300 hover:text-white"
-        >
-          LinkedIn
-        </a>
+            <div className="flex gap-6">
+              <a
+                href="https://www.linkedin.com/in/mark-mundy-94257335b/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-slate-300 hover:text-white"
+              >
+                LinkedIn
+              </a>
 
-        <a
-          href="mailto:your@email.com"
-          className="text-slate-300 hover:text-white"
-        >
-          Email
-        </a>
-      </div>
-    </div>
+              <a
+                href="mailto:your@email.com"
+                className="text-slate-300 hover:text-white"
+              >
+                Email
+              </a>
+            </div>
+          </div>
 
-  </div>
-</footer>
+        </div>
+      </footer>
     </main>
   );
 }
