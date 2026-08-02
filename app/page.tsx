@@ -147,12 +147,22 @@ export default function Home() {
 
     <div className="mt-12 grid gap-8 md:grid-cols-2">
 
-      <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm hover:-translate-y-1 hover:shadow-lg transition">
-        <p className="text-sm font-semibold text-blue-700">Part 1</p>
-        <h3 className="mt-2 text-xl font-bold text-slate-900">
-          Why Free-Text Incident Data Is One of the Biggest Untapped Resources
-        </h3>
-      </div>
+      <a
+  href="/articles/part-1"
+  className="block rounded-xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
+>
+  <p className="text-sm font-semibold text-blue-700">
+    Part 1
+  </p>
+
+  <h3 className="mt-2 text-xl font-bold text-slate-900">
+    Why Free-Text Incident Data Is One of the Biggest Untapped Resources
+  </h3>
+
+  <p className="mt-4 font-semibold text-blue-700">
+    Read Article →
+  </p>
+</a>
 
       <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm hover:-translate-y-1 hover:shadow-lg transition">
         <p className="text-sm font-semibold text-blue-700">Part 2</p>
