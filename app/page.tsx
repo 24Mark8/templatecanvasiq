@@ -148,7 +148,7 @@ export default function Home() {
           <div className="mt-12 grid gap-8 md:grid-cols-2">
 
             <a
-              href="/articles/part-1"
+              href="/article/part-1"
               className="block rounded-xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
             >
               <p className="text-sm font-semibold text-blue-700">
