@@ -186,12 +186,27 @@ export default function Home() {
   </div>
 </Link>
 
-            <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm hover:-translate-y-1 hover:shadow-lg transition">
-              <p className="text-sm font-semibold text-blue-700">Part 3</p>
-              <h3 className="mt-2 text-xl font-bold text-slate-900">
-                Designing a Reusable Keyword Library
-              </h3>
-            </div>
+           <Link
+  href="/articles/part-3"
+  className="block rounded-xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg hover:border-blue-500"
+>
+  <p className="text-sm font-semibold text-blue-700">
+    Part 3
+  </p>
+
+  <h3 className="mt-2 text-xl font-bold text-slate-900">
+    Designing a Reusable Keyword Library
+  </h3>
+
+  <p className="mt-3 text-slate-600">
+    Learn how to build a scalable keyword library that separates business rules
+    from code and supports continuous improvement.
+  </p>
+
+  <div className="mt-5 font-semibold text-blue-600">
+    Read Article →
+  </div>
+</Link>
 
             <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm hover:-translate-y-1 hover:shadow-lg transition">
               <p className="text-sm font-semibold text-blue-700">Part 4</p>
