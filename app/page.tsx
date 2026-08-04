@@ -135,7 +135,7 @@ export default function Home() {
 
       {/* ARTICLES */}
       <section id="articles" className="py-24">
-        <div className="mx-auto max-w-7xl px-6">
+        <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg hover:border-blue-500 cursor-pointer">
           <h2 className="text-3xl font-bold text-slate-900">
             Articles & Insights
           </h2>
