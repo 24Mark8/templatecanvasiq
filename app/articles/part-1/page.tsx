@@ -1,26 +1,25 @@
-import Link from "next/link";
-
 export default function ArticlePart1() {
   return (
     <main className="min-h-screen bg-white">
-      <article className="mx-auto max-w-4xl px-6 py-20 text-slate-800">
+      <section className="mx-auto max-w-4xl px-6 py-20">
 
         <p className="text-sm font-semibold uppercase tracking-widest text-blue-700">
-          Incident Intelligence Series • Part 1
+          ARTICLE SERIES • PART 1
         </p>
 
-        <h1 className="mt-4 text-5xl font-bold tracking-tight text-slate-900">
-          There’s Valuable Information Hidden in Every Incident Report
+        <h1 className="mt-4 text-5xl font-extrabold leading-tight text-slate-900">
+          Building a Reusable Framework for Categorising Datix Incident Narratives – Part 1: There's Valuable Information Hidden in Every Incident Report
         </h1>
 
-        <div className="mt-6 flex gap-6 text-sm text-slate-700">
+        <div className="mt-6 flex gap-6 text-sm text-slate-500">
           <span>Published July 10, 2026</span>
+          <span>•</span>
           <span>8 minute read</span>
         </div>
 
-        <hr className="my-10 border-slate-300" />
+        <hr className="my-10 border-slate-200" />
 
-        <div className="prose prose-lg prose-slate max-w-none">
+        <div className="space-y-6 text-lg leading-8 text-slate-700">
 
           <p>
             After more than 20 years working with NHS data, one thing has become increasingly obvious to me:
@@ -38,13 +37,13 @@ export default function ArticlePart1() {
             The problem is that they're difficult to analyse at scale.
           </p>
 
-          <h2>The challenge</h2>
+          <h2 className="text-2xl font-bold text-slate-900 mt-10">The challenge</h2>
 
           <p>
             Anyone who has worked with incident data knows there isn't just one way to describe the same event.
           </p>
 
-          <ul>
+          <ul className="list-disc pl-6 space-y-2">
             <li>"LMWH omitted"</li>
             <li>"Missed thromboprophylaxis dose"</li>
             <li>"Enoxaparin not administered"</li>
@@ -61,7 +60,7 @@ export default function ArticlePart1() {
             to identify trends across a large organisation.
           </p>
 
-          <h2>Looking for a better way</h2>
+          <h2 className="text-2xl font-bold text-slate-900 mt-10">Looking for a better way</h2>
 
           <p>
             I didn't want to build another report that solved one specific problem. I wanted something I could use again
@@ -76,7 +75,7 @@ export default function ArticlePart1() {
 
           <p>The framework was designed to:</p>
 
-          <ul>
+          <ul className="list-disc pl-6 space-y-2">
             <li>categorise incidents consistently</li>
             <li>allow one incident to belong to more than one category</li>
             <li>be easy to maintain</li>
@@ -88,7 +87,7 @@ export default function ArticlePart1() {
             Once it was built, I realised it could be applied to far more than just one project.
           </p>
 
-          <h2>Where AI helps</h2>
+          <h2 className="text-2xl font-bold text-slate-900 mt-10">Where AI helps</h2>
 
           <p>
             People often ask, "Why not just use AI to do it all?"
@@ -109,7 +108,7 @@ export default function ArticlePart1() {
             information that people rely on to make decisions.
           </p>
 
-          <h2>Why this matters</h2>
+          <h2 className="text-2xl font-bold text-slate-900 mt-10">Why this matters</h2>
 
           <p>
             When you can turn thousands of free-text narratives into meaningful categories, you stop spending hours
@@ -126,7 +125,7 @@ export default function ArticlePart1() {
             otherwise miss.
           </p>
 
-          <h2>What's next?</h2>
+          <h2 className="text-2xl font-bold text-slate-900 mt-10">What's next?</h2>
 
           <p>
             In the next article, I'll show how I built the keyword library that sits behind this framework, why I chose
@@ -135,16 +134,13 @@ export default function ArticlePart1() {
 
         </div>
 
-        <div className="mt-16 border-t pt-8">
-          <Link
-            href="/articles"
-            className="font-semibold text-blue-700 hover:text-blue-800 hover:underline"
-          >
-            ← Back to Articles
-          </Link>
+        <div className="mt-16">
+          <a href="/" className="font-semibold text-blue-700 hover:text-blue-900">
+            ← Back to Home
+          </a>
         </div>
 
-      </article>
+      </section>
     </main>
   );
 }
