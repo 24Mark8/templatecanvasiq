@@ -214,14 +214,9 @@ export default function ArticlePart3() {
 
         </div>
 
-        <div className="mt-16">
-          <Link
-            href="/articles"
-            className="font-semibold text-blue-700 hover:text-blue-800"
-          >
-            ← Back to Articles
-          </Link>
-        </div>
+       
+          
+        
 
       </article>
     </main>
