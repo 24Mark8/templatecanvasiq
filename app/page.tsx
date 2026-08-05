@@ -192,10 +192,7 @@ export default function Home() {
         <p className="mt-3 text-slate-600">
           Learn how to build a scalable keyword library that separates business rules
           from code and supports continuous improvement.
-        </p><p className="mt-3 text-slate-600">
-  How AI can strengthen categorisation frameworks and uncover patterns humans miss.
-</p>
-
+        </p>
         <p className="mt-5 font-semibold text-blue-700">Read Article →</p>
       </Link>
 
@@ -226,7 +223,10 @@ export default function Home() {
         <p className="text-sm font-semibold text-blue-700">Part 5</p>
         <h3 className="mt-2 text-xl font-bold text-slate-900">
           Using AI to Build Better Categories
-        </h3>
+        </h3><p className="mt-3 text-slate-600">
+  How AI can strengthen categorisation frameworks and uncover patterns humans miss.
+</p>
+
         <p className="mt-5 font-semibold text-blue-700">Read Article →</p>
       </Link>
 
