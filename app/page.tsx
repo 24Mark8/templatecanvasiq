@@ -192,15 +192,23 @@ export default function Home() {
         <p className="mt-5 font-semibold text-blue-700">Read Article →</p>
       </Link>
 
-      {/* PART 4 */}
+      {/* PART 4 — FIXED */}
       <Link
         href="/articles/part-4"
         className="block rounded-xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg hover:border-blue-500"
       >
         <p className="text-sm font-semibold text-blue-700">Part 4</p>
+
         <h3 className="mt-2 text-xl font-bold text-slate-900">
           Building the Power Query Categorisation Engine
         </h3>
+
+        <p className="mt-3 text-slate-600">
+          How to design a scalable, maintainable Power Query engine for categorising
+          incident narratives using reusable logic.
+        </p>
+
+        <p className="mt-5 font-semibold text-blue-700">Read Article →</p>
       </Link>
 
       {/* PART 5 */}
@@ -212,6 +220,7 @@ export default function Home() {
         <h3 className="mt-2 text-xl font-bold text-slate-900">
           Using AI to Build Better Categories
         </h3>
+        <p className="mt-5 font-semibold text-blue-700">Read Article →</p>
       </Link>
 
       {/* PART 6 */}
@@ -223,6 +232,7 @@ export default function Home() {
         <h3 className="mt-2 text-xl font-bold text-slate-900">
           From Categories to Insights
         </h3>
+        <p className="mt-5 font-semibold text-blue-700">Read Article →</p>
       </Link>
 
       {/* PART 7 */}
@@ -234,11 +244,13 @@ export default function Home() {
         <h3 className="mt-2 text-xl font-bold text-slate-900">
           A Framework That Goes Beyond VTE
         </h3>
+        <p className="mt-5 font-semibold text-blue-700">Read Article →</p>
       </Link>
 
     </div>
   </div>
 </section>
+
 
 
       {/* CONTACT */}
