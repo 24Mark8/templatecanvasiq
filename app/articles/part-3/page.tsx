@@ -58,43 +58,44 @@ export default function ArticlePart3() {
               Recommended Structure
             </h2>
 
-            <table className="mt-6 w-full border border-slate-300 text-sm">
-              <thead className="bg-slate-100">
-                <tr>
-                  <th className="border border-slate-300 px-3 py-2 text-left">Category</th>
-                  <th className="border border-slate-300 px-3 py-2 text-left">Keyword</th>
-                  <th className="border border-slate-300 px-3 py-2 text-left">Priority</th>
-                  <th className="border border-slate-300 px-3 py-2 text-left">Match Type</th>
-                  <th className="border border-slate-300 px-3 py-2 text-left">Active</th>
-                </tr>
-              </thead>
+<table className="mt-6 w-full border border-slate-400 text-base text-slate-800">
+  <thead className="bg-slate-200">
+    <tr>
+      <th className="border border-slate-400 px-3 py-2 text-left">Category</th>
+      <th className="border border-slate-400 px-3 py-2 text-left">Keyword</th>
+      <th className="border border-slate-400 px-3 py-2 text-left">Priority</th>
+      <th className="border border-slate-400 px-3 py-2 text-left">Match Type</th>
+      <th className="border border-slate-400 px-3 py-2 text-left">Active</th>
+    </tr>
+  </thead>
 
-              <tbody>
-                <tr>
-                  <td className="border border-slate-300 px-3 py-2">Falls</td>
-                  <td className="border border-slate-300 px-3 py-2">slipped</td>
-                  <td className="border border-slate-300 px-3 py-2">2</td>
-                  <td className="border border-slate-300 px-3 py-2">Contains</td>
-                  <td className="border border-slate-300 px-3 py-2">Yes</td>
-                </tr>
+  <tbody>
+    <tr>
+      <td className="border border-slate-400 px-3 py-2">Falls</td>
+      <td className="border border-slate-400 px-3 py-2">slipped</td>
+      <td className="border border-slate-400 px-3 py-2">2</td>
+      <td className="border border-slate-400 px-3 py-2">Contains</td>
+      <td className="border border-slate-400 px-3 py-2">Yes</td>
+    </tr>
 
-                <tr>
-                  <td className="border border-slate-300 px-3 py-2">Medication</td>
-                  <td className="border border-slate-300 px-3 py-2">insulin</td>
-                  <td className="border border-slate-300 px-3 py-2">1</td>
-                  <td className="border border-slate-300 px-3 py-2">Contains</td>
-                  <td className="border border-slate-300 px-3 py-2">Yes</td>
-                </tr>
+    <tr>
+      <td className="border border-slate-400 px-3 py-2">Medication</td>
+      <td className="border border-slate-400 px-3 py-2">insulin</td>
+      <td className="border border-slate-400 px-3 py-2">1</td>
+      <td className="border border-slate-400 px-3 py-2">Contains</td>
+      <td className="border border-slate-400 px-3 py-2">Yes</td>
+    </tr>
 
-                <tr>
-                  <td className="border border-slate-300 px-3 py-2">Pressure Ulcer</td>
-                  <td className="border border-slate-300 px-3 py-2">grade 2</td>
-                  <td className="border border-slate-300 px-3 py-2">1</td>
-                  <td className="border border-slate-300 px-3 py-2">Contains</td>
-                  <td className="border border-slate-300 px-3 py-2">Yes</td>
-                </tr>
-              </tbody>
-            </table>
+    <tr>
+      <td className="border border-slate-400 px-3 py-2">Pressure Ulcer</td>
+      <td className="border border-slate-400 px-3 py-2">grade 2</td>
+      <td className="border border-slate-400 px-3 py-2">1</td>
+      <td className="border border-slate-400 px-3 py-2">Contains</td>
+      <td className="border border-slate-400 px-3 py-2">Yes</td>
+    </tr>
+  </tbody>
+</table>
+
           </section>
 
           {/* FIELDS */}
