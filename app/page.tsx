@@ -157,11 +157,11 @@ export default function Home() {
         <p className="text-sm font-semibold text-blue-700">Part 1</p>
         <h3 className="mt-2 text-xl font-bold text-slate-900">
           Why Free-Text Incident Data Is One of the Biggest Untapped Resources
-        </h3>
-        <p className="mt-3 text-slate-600">
+        </h3><p className="mt-3 text-slate-600">
   Discover why a well-designed keyword library is the foundation...
 </p>
 
+        <p className="mt-4 font-semibold text-blue-700">Read Article →</p>
       </Link>
 
       {/* PART 2 */}
