@@ -158,7 +158,10 @@ export default function Home() {
         <h3 className="mt-2 text-xl font-bold text-slate-900">
           Why Free-Text Incident Data Is One of the Biggest Untapped Resources
         </h3>
-        <p className="mt-4 font-semibold text-blue-700">Read Article →</p>
+        <p className="mt-3 text-slate-600">
+  Discover why a well-designed keyword library is the foundation...
+</p>
+
       </Link>
 
       {/* PART 2 */}
