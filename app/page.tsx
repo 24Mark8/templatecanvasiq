@@ -238,7 +238,10 @@ export default function Home() {
         <p className="text-sm font-semibold text-blue-700">Part 6</p>
         <h3 className="mt-2 text-xl font-bold text-slate-900">
           From Categories to Insights
-        </h3>
+        </h3><p className="mt-3 text-slate-600">
+  Turning categorised incident data into meaningful insights that drive improvement.
+</p>
+
         <p className="mt-5 font-semibold text-blue-700">Read Article →</p>
       </Link>
 
@@ -250,7 +253,10 @@ export default function Home() {
         <p className="text-sm font-semibold text-blue-700">Part 7</p>
         <h3 className="mt-2 text-xl font-bold text-slate-900">
           A Framework That Goes Beyond VTE
-        </h3>
+        </h3><p className="mt-3 text-slate-600">
+  A generalisable framework that extends beyond VTE and supports wider safety themes.
+</p>
+
         <p className="mt-5 font-semibold text-blue-700">Read Article →</p>
       </Link>
 
