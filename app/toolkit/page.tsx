@@ -74,7 +74,7 @@ export default function Toolkit() {
           <div className="mt-14 grid gap-4 md:grid-cols-6">
 
             {[
-              "Datix Export",
+              "Data Export",
               "Power Query",
               "Categorisation",
               "Review & Improve",
