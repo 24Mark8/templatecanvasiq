@@ -66,13 +66,23 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="flex flex-col rounded-xl border border-slate-200 bg-white p-8 shadow-sm hover:-translate-y-1 hover:shadow-lg transition">
-              <h3 className="text-xl font-bold text-slate-900">🩺 NHS Incident Intelligence Toolkit</h3>
-              <p className="mt-4 text-slate-600">
-                A reusable toolkit for incident categorisation, trend analysis, and patient safety
-                reporting.
-              </p>
-            </div>
+            <Link
+  href="/toolkit"
+  className="flex flex-col rounded-xl border border-slate-200 bg-white p-8 shadow-sm hover:-translate-y-1 hover:shadow-lg hover:border-blue-500 transition"
+>
+  <h3 className="text-xl font-bold text-slate-900">
+    🩺 NHS Incident Intelligence Toolkit
+  </h3>
+
+  <p className="mt-4 text-slate-600">
+    A reusable toolkit for incident categorisation, trend analysis, and patient safety
+    reporting.
+  </p>
+
+  <p className="mt-5 font-semibold text-blue-700">
+    Explore the Toolkit →
+  </p>
+</Link>
 
             <div className="flex flex-col rounded-xl border border-slate-200 bg-white p-8 shadow-sm hover:-translate-y-1 hover:shadow-lg transition">
               <h3 className="text-xl font-bold text-slate-900">🤖 Automation & AI</h3>
