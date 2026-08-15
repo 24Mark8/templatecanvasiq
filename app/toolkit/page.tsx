@@ -234,9 +234,11 @@ export default function Toolkit() {
   </p>
 </div>
 
-{/* 08 */}
-<div className="rounded-xl border border-slate-200 bg-white p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
-  <p className="text-sm font-semibold text-blue-700">08</p>
+{/* Part 8 */}
+<div className="rounded-xl border border-slate-200 bg-white p-8 shadow-sm">
+  <p className="text-sm font-semibold text-blue-700">
+    Part 8
+  </p>
 
   <h3 className="mt-2 text-xl font-bold text-slate-900">
     Can Power BI Help Us Know Where to Look?
@@ -252,7 +254,7 @@ export default function Toolkit() {
     href="/articles/part-8"
     className="mt-6 inline-block font-semibold text-blue-700 hover:text-blue-900"
   >
-    Read Part 8 →
+    Read Article →
   </a>
 </div>
 
