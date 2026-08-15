@@ -220,46 +220,47 @@ export default function Toolkit() {
             </div>
 
            {/* 07 */}
-          <div className="rounded-xl border border-slate-200 bg-white p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
-         <p className="text-sm font-semibold text-blue-700">07</p>
-         <h3 className="mt-2 text-xl font-bold text-slate-900">
+      <div className="rounded-xl border border-slate-200 bg-white p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+        <p className="text-sm font-semibold text-blue-700">07</p>
+
+        <h3 className="mt-2 text-xl font-bold text-slate-900">
           Power BI Dashboard Templates
-         </h3>
-         <p className="mt-4 leading-7 text-slate-600">
-         Turn structured incident data into professional dashboards
-         showing trends, categories, harm levels, locations and themes.
-         </p>
-         <p className="mt-4 text-sm text-slate-500">
-         From “How many?” to “What are the incidents telling us?”
-         </p>
-         </div>
+        </h3>
 
-       {/* Part 8 */}
-      <div className="rounded-xl border border-slate-200 bg-white p-8 shadow-sm">
-      <p className="text-sm font-semibold text-blue-700">
-        Part 8
-       </p>
+        <p className="mt-4 leading-7 text-slate-600">
+          Turn structured incident data into professional dashboards showing
+          trends, categories, harm levels, locations and themes.
+        </p>
 
-      <h3 className="mt-2 text-xl font-bold text-slate-900">
-       Can Power BI Help Us Know Where to Look?
-      </h3>
+        <p className="mt-4 text-sm text-slate-500">
+          From “How many?” to “What are the incidents telling us?”
+        </p>
+      </div>
 
-     <p className="mt-4 leading-7 text-slate-600">
-    Exploring the Amos report through maternity incident data and how
-    Power BI can help identify themes, questions and areas for further
-    investigation.
-  </p>
+      {/* Part 8 */}
+      <div className="rounded-xl border border-slate-200 bg-white p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+        <p className="text-sm font-semibold text-blue-700">Part 8</p>
 
-  <a
-    href="/articles/part-8"
-    className="mt-6 inline-block font-semibold text-blue-700 hover:text-blue-900"
-  >
-    Read Article →
-  </a>
-</div>
+        <h3 className="mt-2 text-xl font-bold text-slate-900">
+          Can Power BI Help Us Know Where to Look?
+        </h3>
 
-</div>
-</div>
+        <p className="mt-4 leading-7 text-slate-600">
+          Exploring the Amos report through maternity incident data and how
+          Power BI can help identify themes, questions and areas for further
+          investigation.
+        </p>
+
+        <a
+          href="/articles/part-8"
+          className="mt-6 inline-block font-semibold text-blue-700 hover:text-blue-900"
+        >
+          Read Article →
+        </a>
+      </div>
+
+    </div>
+  </div>
 </section>
 
       {/* CONTINUOUS IMPROVEMENT */}
