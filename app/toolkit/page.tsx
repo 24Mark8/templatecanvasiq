@@ -234,17 +234,17 @@ export default function Toolkit() {
          </p>
          </div>
 
-{/* Part 8 */}
-<div className="rounded-xl border border-slate-200 bg-white p-8 shadow-sm">
-  <p className="text-sm font-semibold text-blue-700">
-    Part 8
-  </p>
+       {/* Part 8 */}
+      <div className="rounded-xl border border-slate-200 bg-white p-8 shadow-sm">
+      <p className="text-sm font-semibold text-blue-700">
+        Part 8
+       </p>
 
-  <h3 className="mt-2 text-xl font-bold text-slate-900">
-    Can Power BI Help Us Know Where to Look?
-  </h3>
+      <h3 className="mt-2 text-xl font-bold text-slate-900">
+       Can Power BI Help Us Know Where to Look?
+      </h3>
 
-  <p className="mt-4 leading-7 text-slate-600">
+     <p className="mt-4 leading-7 text-slate-600">
     Exploring the Amos report through maternity incident data and how
     Power BI can help identify themes, questions and areas for further
     investigation.
