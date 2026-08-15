@@ -219,37 +219,46 @@ export default function Toolkit() {
               </p>
             </div>
 
-            {/* 07 */}
-            <div className="rounded-xl border border-slate-200 bg-white p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
-              <p className="text-sm font-semibold text-blue-700">07</p>
-              <h3 className="mt-2 text-xl font-bold text-slate-900">
-                Power BI Dashboard Templates
-              </h3>
-              <p className="mt-4 leading-7 text-slate-600">
-                Turn structured incident data into professional dashboards
-                showing trends, categories, harm levels, locations and themes.
-              </p>
-              <p className="mt-4 text-sm text-slate-500">
-                From “How many?” to “What are the incidents telling us?”
-              </p>
-            </div>
+           {/* 07 */}
+<div className="rounded-xl border border-slate-200 bg-white p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+  <p className="text-sm font-semibold text-blue-700">07</p>
+  <h3 className="mt-2 text-xl font-bold text-slate-900">
+    Power BI Dashboard Templates
+  </h3>
+  <p className="mt-4 leading-7 text-slate-600">
+    Turn structured incident data into professional dashboards
+    showing trends, categories, harm levels, locations and themes.
+  </p>
+  <p className="mt-4 text-sm text-slate-500">
+    From “How many?” to “What are the incidents telling us?”
+  </p>
+</div>
 
+{/* 08 */}
+<div className="rounded-xl border border-slate-200 bg-white p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+  <p className="text-sm font-semibold text-blue-700">08</p>
 
-            {/* 08 */}
-            <div className="rounded-xl border border-slate-200 bg-white p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
-              <p className="text-sm font-semibold text-blue-700">08</p>
-              <h3 className="mt-2 text-xl font-bold text-slate-900">
-                DAX &amp; Documentation Library
-              </h3>
-              <p className="mt-4 leading-7 text-slate-600">
-                Reusable DAX measures, Power Query guidance, data model
-                guidance, implementation notes and dashboard examples.
-              </p>
-            </div>
+  <h3 className="mt-2 text-xl font-bold text-slate-900">
+    Can Power BI Help Us Know Where to Look?
+  </h3>
 
-          </div>
-        </div>
-      </section>
+  <p className="mt-4 leading-7 text-slate-600">
+    Exploring the Amos report through maternity incident data and how
+    Power BI can help identify themes, questions and areas for further
+    investigation.
+  </p>
+
+  <a
+    href="/articles/part-8"
+    className="mt-6 inline-block font-semibold text-blue-700 hover:text-blue-900"
+  >
+    Read Part 8 →
+  </a>
+</div>
+
+</div>
+</div>
+</section>
 
       {/* CONTINUOUS IMPROVEMENT */}
       <section className="bg-slate-50 py-24">
