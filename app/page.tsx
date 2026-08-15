@@ -255,23 +255,46 @@ export default function Home() {
         <p className="mt-5 font-semibold text-blue-700">Read Article →</p>
       </Link>
 
-      {/* PART 7 */}
-      <Link
-        href="/articles/part-7"
-        className="block rounded-xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg hover:border-blue-500 md:col-span-2"
-      >
-        <p className="text-sm font-semibold text-blue-700">Part 7</p>
-        <h3 className="mt-2 text-xl font-bold text-slate-900">
-          A Framework That Goes Beyond VTE
-        </h3><p className="mt-3 text-slate-600">
-  A generalisable framework that extends beyond VTE and supports wider safety themes.
-</p>
+     {/* PART 7 */}
+<Link
+  href="/articles/part-7"
+  className="block rounded-xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg hover:border-blue-500 md:col-span-2"
+>
+  <p className="text-sm font-semibold text-blue-700">Part 7</p>
+  <h3 className="mt-2 text-xl font-bold text-slate-900">
+    A Framework That Goes Beyond VTE
+  </h3>
+  <p className="mt-3 text-slate-600">
+    A generalisable framework that extends beyond VTE and supports wider safety themes.
+  </p>
 
-        <p className="mt-5 font-semibold text-blue-700">Read Article →</p>
-      </Link>
+  <p className="mt-5 font-semibold text-blue-700">Read Article →</p>
+</Link>
 
-    </div>
-  </div>
+{/* PART 8 */}
+<Link
+  href="/articles/part-8"
+  className="block rounded-xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg hover:border-blue-500 md:col-span-2"
+>
+  <p className="text-sm font-semibold text-blue-700">Part 8</p>
+
+  <h3 className="mt-2 text-xl font-bold text-slate-900">
+    Can Power BI Help Us Know Where to Look?
+  </h3>
+
+  <p className="mt-3 text-slate-600">
+    Exploring the Amos report through maternity incident data and how
+    Power BI can help identify themes, questions and areas for further
+    investigation.
+  </p>
+
+  <p className="mt-5 font-semibold text-blue-700">
+    Read Article →
+  </p>
+</Link>
+
+</div>
+</div>
 </section>
 
 
