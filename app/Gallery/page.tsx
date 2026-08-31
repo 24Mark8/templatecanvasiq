@@ -5,16 +5,29 @@ export default function Gallery() {
       {/* NAV */}
       <nav className="sticky top-0 z-50 border-b border-slate-200 bg-white">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-          <h2 className="text-2xl font-extrabold tracking-tight text-blue-700">
+          <a
+            href="/"
+            className="text-2xl font-extrabold tracking-tight text-blue-700"
+          >
             TemplateCanvasIQ
-          </h2>
+          </a>
 
           <div className="flex gap-8 text-sm font-medium">
-            <a href="/" className="text-slate-700 hover:text-blue-700">Home</a>
-            <a href="/#about" className="text-slate-700 hover:text-blue-700">About</a>
-            <a href="/#services" className="text-slate-700 hover:text-blue-700">Services</a>
-            <a href="/#articles" className="text-slate-700 hover:text-blue-700">Articles</a>
-            <a href="/#contact" className="text-slate-700 hover:text-blue-700">Contact</a>
+            <a href="/" className="text-slate-700 hover:text-blue-700">
+              Home
+            </a>
+            <a href="/#about" className="text-slate-700 hover:text-blue-700">
+              About
+            </a>
+            <a href="/#services" className="text-slate-700 hover:text-blue-700">
+              Services
+            </a>
+            <a href="/#articles" className="text-slate-700 hover:text-blue-700">
+              Articles
+            </a>
+            <a href="/#contact" className="text-slate-700 hover:text-blue-700">
+              Contact
+            </a>
           </div>
         </div>
       </nav>
@@ -46,14 +59,18 @@ export default function Gallery() {
               <img
                 src="/gallery/pressure-injury-overview.png"
                 alt="Pressure Injury Intelligence dashboard overview"
-                className="w-full"
+                className="block w-full"
               />
 
               <div className="p-7">
-                <p className="text-sm font-semibold text-blue-700">01</p>
+                <p className="text-sm font-semibold text-blue-700">
+                  01
+                </p>
+
                 <h2 className="mt-2 text-2xl font-bold text-slate-900">
                   Pressure Injury Intelligence
                 </h2>
+
                 <p className="mt-3 leading-7 text-slate-600">
                   A high-level view of Pressure Injury incidents, highlighting
                   trends, matched themes, harm and unclassified cases.
@@ -66,14 +83,18 @@ export default function Gallery() {
               <img
                 src="/gallery/pressure-injury-detail.png"
                 alt="Pressure Injury Detail dashboard"
-                className="w-full"
+                className="block w-full"
               />
 
               <div className="p-7">
-                <p className="text-sm font-semibold text-blue-700">02</p>
+                <p className="text-sm font-semibold text-blue-700">
+                  02
+                </p>
+
                 <h2 className="mt-2 text-2xl font-bold text-slate-900">
                   Pressure Injury Detail
                 </h2>
+
                 <p className="mt-3 leading-7 text-slate-600">
                   Explore categories, keywords and individual incident
                   narratives identified by the categorisation engine.
@@ -86,14 +107,18 @@ export default function Gallery() {
               <img
                 src="/gallery/pressure-injury-trends.png"
                 alt="Pressure Injury Trends and Emerging Risk dashboard"
-                className="w-full"
+                className="block w-full"
               />
 
               <div className="p-7">
-                <p className="text-sm font-semibold text-blue-700">03</p>
+                <p className="text-sm font-semibold text-blue-700">
+                  03
+                </p>
+
                 <h2 className="mt-2 text-2xl font-bold text-slate-900">
                   Pressure Injury Trends & Emerging Risk
                 </h2>
+
                 <p className="mt-3 leading-7 text-slate-600">
                   Identify changing patterns in Pressure Injury matches and
                   highlight areas that may warrant further review.
@@ -106,14 +131,18 @@ export default function Gallery() {
               <img
                 src="/gallery/pressure-injury-explorer.png"
                 alt="Pressure Injury Incident Explorer dashboard"
-                className="w-full"
+                className="block w-full"
               />
 
               <div className="p-7">
-                <p className="text-sm font-semibold text-blue-700">04</p>
+                <p className="text-sm font-semibold text-blue-700">
+                  04
+                </p>
+
                 <h2 className="mt-2 text-2xl font-bold text-slate-900">
                   Incident Explorer
                 </h2>
+
                 <p className="mt-3 leading-7 text-slate-600">
                   Explore individual incident narratives, matched categories
                   and keyword signals to understand the context behind
@@ -123,7 +152,6 @@ export default function Gallery() {
             </div>
 
           </div>
-
         </div>
       </section>
 
@@ -163,11 +191,25 @@ export default function Gallery() {
           </p>
 
           <div className="mt-8 flex flex-wrap gap-6 text-sm">
-            <a href="/" className="text-slate-300 hover:text-white">Home</a>
-            <a href="/#about" className="text-slate-300 hover:text-white">About</a>
-            <a href="/#services" className="text-slate-300 hover:text-white">Services</a>
-            <a href="/#articles" className="text-slate-300 hover:text-white">Articles</a>
-            <a href="/#contact" className="text-slate-300 hover:text-white">Contact</a>
+            <a href="/" className="text-slate-300 hover:text-white">
+              Home
+            </a>
+
+            <a href="/#about" className="text-slate-300 hover:text-white">
+              About
+            </a>
+
+            <a href="/#services" className="text-slate-300 hover:text-white">
+              Services
+            </a>
+
+            <a href="/#articles" className="text-slate-300 hover:text-white">
+              Articles
+            </a>
+
+            <a href="/#contact" className="text-slate-300 hover:text-white">
+              Contact
+            </a>
           </div>
 
           <div className="mt-8 border-t border-slate-700 pt-6">
