@@ -354,7 +354,7 @@ export default function Home() {
               </a>
 
               <a
-                href="mailto:your@email.com"
+                href="mailto:MarkMundy1971@Hotmail.com"
                 className="text-slate-300 hover:text-white"
               >
                 Email
