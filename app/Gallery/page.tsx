@@ -1,4 +1,4 @@
-export default function gallery() {
+export default function Gallery() {
   return (
     <main className="min-h-screen bg-white">
 
