@@ -337,26 +337,68 @@ export default function Toolkit() {
         </div>
       </section>
 
-      {/* CTA */}
-      <section className="bg-blue-700 py-20">
-        <div className="mx-auto max-w-7xl px-6 text-center text-white">
+      {/* AVAILABLE PRODUCT */}
+      <section className="bg-slate-50 py-24">
+        <div className="mx-auto max-w-7xl px-6">
 
-          <h2 className="text-3xl font-bold">
-            From Raw Data to Real Intelligence
-          </h2>
+          <div className="mx-auto max-w-4xl text-center">
 
-          <p className="mx-auto mt-5 max-w-2xl text-lg text-blue-100">
-            The Incident Intelligence Toolkit provides a reusable starting
-            point for transforming incident reporting into structured,
-            meaningful intelligence.
-          </p>
+            <p className="text-sm font-semibold uppercase tracking-widest text-blue-700">
+              AVAILABLE NOW
+            </p>
 
-          <a
-            href="/"
-            className="mt-8 inline-block rounded-xl bg-white px-6 py-3 font-semibold text-blue-700 hover:bg-slate-100"
-          >
-            Back to TemplateCanvasIQ
-          </a>
+            <h2 className="mt-3 text-3xl font-bold text-slate-900">
+              Pressure Injury Intelligence Toolkit
+            </h2>
+
+            <p className="mx-auto mt-5 max-w-3xl text-lg leading-8 text-slate-600">
+              A ready-to-use Power BI solution built on the Incident Intelligence
+              Toolkit framework, designed to turn Pressure Injury incident
+              narratives into structured, meaningful intelligence.
+            </p>
+
+            <div className="mt-8 rounded-2xl border border-slate-200 bg-white p-8 shadow-sm">
+
+              <p className="text-4xl font-extrabold text-slate-900">
+                £149
+              </p>
+
+              <p className="mt-2 text-slate-600">
+                Pressure Injury Intelligence Toolkit
+              </p>
+
+              <div className="mx-auto mt-8 max-w-2xl text-left">
+
+                <p className="font-semibold text-slate-900">
+                  Includes:
+                </p>
+
+                <ul className="mt-4 space-y-3 text-slate-600">
+                  <li>✓ Power BI dashboard template</li>
+                  <li>✓ Pressure Injury keyword library</li>
+                  <li>✓ Power Query categorisation engine</li>
+                  <li>✓ DAX measures and analysis</li>
+                  <li>✓ Sample incident dataset</li>
+                  <li>✓ Documentation and implementation guidance</li>
+                </ul>
+
+              </div>
+
+              <div className="mt-8 rounded-xl bg-slate-50 p-5">
+                <p className="font-semibold text-slate-900">
+                  Built for Pressure Injury. Designed to be reusable.
+                </p>
+
+                <p className="mt-2 text-sm leading-6 text-slate-600">
+                  The underlying framework can be adapted to other clinical,
+                  quality and patient-safety themes, including VTE, Falls,
+                  Maternity and CQC-related analysis.
+                </p>
+              </div>
+
+            </div>
+
+          </div>
 
         </div>
       </section>
