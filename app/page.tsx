@@ -37,9 +37,12 @@ export default function Home() {
         </p>
 
         <div className="mt-10 flex gap-4">
-          <button className="rounded-xl bg-blue-600 px-6 py-3 font-semibold text-white hover:bg-blue-700">
-            View Dashboard Gallery
-          </button>
+         <a
+  href="/gallery"
+  className="rounded-xl bg-blue-600 px-6 py-3 font-semibold text-white hover:bg-blue-700"
+>
+  View Dashboard Gallery
+</a>
           <button className="rounded-xl border border-slate-300 px-6 py-3 font-semibold text-slate-700 hover:bg-slate-100">
             Learn More
           </button>
