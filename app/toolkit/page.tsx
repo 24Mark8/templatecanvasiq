@@ -395,12 +395,19 @@ export default function Toolkit() {
                   Maternity and CQC-related analysis.
                 </p>
               </div>
+             <a
+                href="mailto:markmundy1971@hotmail.com?subject=Pressure%20Injury%20Intelligence%20Toolkit%20-%20£149"
+                className="mt-8 inline-block rounded-xl bg-blue-600 px-8 py-4 font-semibold text-white hover:bg-blue-700"
+              >
+                Get the Toolkit — £149
+              </a>
 
+            </div>
             </div>
 
           </div>
 
-        </div>
+        
       </section>
 
       {/* FOOTER */}
