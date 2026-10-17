@@ -1,11 +1,7 @@
-"use client";
-
-import Script from "next/script";
 
 export default function NewsletterPage() {
   return (
     <main className="min-h-screen bg-slate-50">
-      {/* HERO */}
       <section className="bg-slate-900 px-6 py-20 text-white">
         <div className="mx-auto max-w-4xl text-center">
           <p className="mb-4 text-sm font-semibold uppercase tracking-[0.25em] text-blue-300">
@@ -27,7 +23,6 @@ export default function NewsletterPage() {
         </div>
       </section>
 
-      {/* SIGNUP CARD */}
       <section className="px-6 py-16">
         <div className="mx-auto max-w-xl rounded-2xl border border-slate-200 bg-white p-8 shadow-sm sm:p-10">
           <h2 className="text-2xl font-bold text-slate-900">
@@ -46,66 +41,43 @@ export default function NewsletterPage() {
             <li>✓ Ideas you can put into practice</li>
           </ul>
 
-          {/* Beehiiv Embed */}
-          <div className="mt-8">
-            <div data-beehiiv-form="b4f3ed0a-5cb2-4254-9177-2a0260f6d764" />
+          <form
+            action="https://YOUR-BEEHIIV-SIGNUP-URL"
+            method="get"
+            className="mt-8"
+          >
+            <label
+              htmlFor="email"
+              className="mb-2 block text-sm font-semibold text-slate-700"
+            >
+              Email address
+            </label>
 
-            <Script
-              src="https://subscribe-forms.beehiiv.com/v3/loader.js"
-              strategy="afterInteractive"
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="you@example.com"
+              required
+              className="w-full rounded-lg border border-slate-300 px-4 py-3 text-slate-900 outline-none focus:border-blue-600 focus:ring-2 focus:ring-blue-100"
             />
-          </div>
+
+            <button
+              type="submit"
+              className="mt-4 w-full rounded-lg bg-blue-700 px-5 py-3 font-semibold text-white transition hover:bg-blue-800"
+            >
+              Sign me up
+            </button>
+          </form>
+
+          <p className="mt-4 text-center text-xs leading-5 text-slate-500">
+            Free to join. Unsubscribe whenever you like.
+          </p>
         </div>
       </section>
 
-      {/* FOOTER */}
-      <footer className="border-t border-slate-200 bg-white px-6 py-10">
-        <div className="mx-auto max-w-4xl">
-          <div className="mt-8 flex flex-wrap gap-6 text-sm">
-            <a href="/" className="text-slate-500 hover:text-slate-900">
-              Home
-            </a>
-            <a href="/#about" className="text-slate-500 hover:text-slate-900">
-              About
-            </a>
-            <a href="/#services" className="text-slate-500 hover:text-slate-900">
-              Services
-            </a>
-            <a href="/#articles" className="text-slate-500 hover:text-slate-900">
-              Articles
-            </a>
-            <a href="/newsletter" className="text-slate-500 hover:text-slate-900">
-              Newsletter
-            </a>
-            <a href="/#contact" className="text-slate-500 hover:text-slate-900">
-              Contact
-            </a>
-          </div>
-
-          <div className="mt-8 border-t border-slate-200 pt-6 flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
-            <p className="text-sm text-slate-500">
-              © 2026 TemplateCanvasIQ. All rights reserved.
-            </p>
-
-            <div className="flex gap-6">
-              <a
-                href="https://www.linkedin.com/in/mark-mundy-94257335b/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-slate-500 hover:text-slate-900"
-              >
-                LinkedIn
-              </a>
-
-              <a
-                href="mailto:MarkMundy1971@Hotmail.com"
-                className="text-slate-500 hover:text-slate-900"
-              >
-                Email
-              </a>
-            </div>
-          </div>
-        </div>
+      <footer className="px-6 py-6 text-center text-sm text-slate-500">
+        © {new Date().getFullYear()} TemplateCanvasIQ
       </footer>
     </main>
   );
