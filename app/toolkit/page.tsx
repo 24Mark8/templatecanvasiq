@@ -43,13 +43,11 @@ export default function Toolkit() {
           </a>
 
           <a
-            href="/#services"
-            className="rounded-xl border border-slate-300 px-6 py-3 font-semibold text-slate-700 hover:bg-slate-100"
-          >
-            View Example Dashboard
-          </a>
-        </div>
-      </section>
+  href="/gallery"
+  className="rounded-xl border border-slate-300 px-6 py-3 font-semibold text-slate-700 hover:bg-slate-100"
+>
+  View Example Dashboard
+</a>
 
       {/* INTRO */}
       <section className="bg-slate-50 py-20">
@@ -401,13 +399,9 @@ export default function Toolkit() {
               >
                 Get the Toolkit — £149
               </a>
-
             </div>
             </div>
-
-          </div>
-
-        
+         </div>
       </section>
 
       {/* FOOTER */}
@@ -427,6 +421,7 @@ export default function Toolkit() {
             <a href="/#about" className="text-slate-300 hover:text-white">About</a>
             <a href="/#services" className="text-slate-300 hover:text-white">Services</a>
             <a href="/#articles" className="text-slate-300 hover:text-white">Articles</a>
+            <a href="/newsletter" className="text-slate-300 hover:text-white">Newsletter</a>
             <a href="/#contact" className="text-slate-300 hover:text-white">Contact</a>
           </div>
 
