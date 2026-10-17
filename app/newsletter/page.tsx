@@ -1,5 +1,25 @@
 
+"use client";
+
+import { useEffect } from "react";
+
 export default function NewsletterPage() {
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://subscribe-forms.beehiiv.com/v3/loader.js";
+    script.async = true;
+    script.dataset.beehiivForm =
+      "b4f3ed0a-5cb2-4254-9177-2a0260f6d764";
+
+    document.body.appendChild(script);
+
+    return () => {
+      if (document.body.contains(script)) {
+        document.body.removeChild(script);
+      }
+    };
+  }, []);
+
   return (
     <main className="min-h-screen bg-slate-50">
       <section className="bg-slate-900 px-6 py-20 text-white">
@@ -41,34 +61,11 @@ export default function NewsletterPage() {
             <li>✓ Ideas you can put into practice</li>
           </ul>
 
-          <form
-            action="https://YOUR-BEEHIIV-SIGNUP-URL"
-            method="get"
-            className="mt-8"
-          >
-            <label
-              htmlFor="email"
-              className="mb-2 block text-sm font-semibold text-slate-700"
-            >
-              Email address
-            </label>
-
-            <input
-              id="email"
-              name="email"
-              type="email"
-              placeholder="you@example.com"
-              required
-              className="w-full rounded-lg border border-slate-300 px-4 py-3 text-slate-900 outline-none focus:border-blue-600 focus:ring-2 focus:ring-blue-100"
+          <div className="mt-8">
+            <div
+              data-beehiiv-form="b4f3ed0a-5cb2-4254-9177-2a0260f6d764"
             />
-
-            <button
-              type="submit"
-              className="mt-4 w-full rounded-lg bg-blue-700 px-5 py-3 font-semibold text-white transition hover:bg-blue-800"
-            >
-              Sign me up
-            </button>
-          </form>
+          </div>
 
           <p className="mt-4 text-center text-xs leading-5 text-slate-500">
             Free to join. Unsubscribe whenever you like.
