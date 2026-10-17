@@ -14,7 +14,7 @@ export default function Toolkit() {
             <a href="/#about" className="text-slate-700 hover:text-blue-700">About</a>
             <a href="/#services" className="text-slate-700 hover:text-blue-700">Services</a>
             <a href="/#articles" className="text-slate-700 hover:text-blue-700">Articles</a>
-            <a href="/newsletter" className="text-slate-300 hover:text-white">Newsletter</a>
+            <a href="/newsletter" className="text-slate-700 hover:text-b">Newsletter</a>
             <a href="/#contact" className="text-slate-700 hover:text-blue-700">Contact</a>
           </div>
         </div>
