@@ -1,6 +1,4 @@
 
-import Script from "next/script";
-
 export default function NewsletterPage() {
   return (
     <main className="min-h-screen bg-slate-50">
@@ -45,14 +43,16 @@ export default function NewsletterPage() {
             <li>✓ Ideas you can put into practice</li>
           </ul>
 
-          {/* BEEHIIV SIGNUP FORM */}
+          {/* BEEHIIV SIGNUP BUTTON */}
           <div className="mt-8">
-            <div data-beehiiv-form="b4f3ed0a-5cb2-4254-9177-2a0260f6d764" />
-
-            <Script
-              src="https://subscribe-forms.beehiiv.com/v3/loader.js"
-              strategy="afterInteractive"
-            />
+            <a
+              href="https://marks-newsletter-a4285e.beehiiv.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block w-full rounded-lg bg-blue-700 px-5 py-3 text-center font-semibold text-white transition hover:bg-blue-800"
+            >
+              Sign me up
+            </a>
           </div>
 
           <p className="mt-4 text-center text-xs leading-5 text-slate-500">
