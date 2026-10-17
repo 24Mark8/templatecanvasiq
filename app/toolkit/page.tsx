@@ -42,6 +42,8 @@ export default function Toolkit() {
           >
             Explore the Toolkit
           </a>
+          </div>
+          </section>
 
           <a
   href="/gallery"
